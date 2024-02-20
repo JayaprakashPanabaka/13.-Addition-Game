@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+    height: 100vh;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+
+.image {
+    width: 100%;
+    /* border: 2px solid; */
+    height: 50%;
+}
+
+.nums-container {
+    margin: 3rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.number {
+    /* height: 150px; */
+    /* width: 150px; */
+    background-color: rgb(123, 119, 119);
+    border: 7px solid rgb(167, 161, 161);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 0.4rem;
+}
+
+.symbol {
+    color: rgb(167, 161, 161);
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0 1rem;
+}
+
+.input-field {
+    background-color: rgb(123, 119, 119);
+    border: 7px solid rgb(167, 161, 161);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 0.4rem 0 0.4rem 1rem;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: rgb(67, 107, 251);
+    margin: 0 1rem;
+    border: none;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#message {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    /* padding: 0.4rem; */
+}
+
+
